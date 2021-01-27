@@ -24,7 +24,7 @@
         </p>
         <nav
           id="nav-bar"
-          class="xl:flex xl:flex-row xl:items-center xl:ml-auto xl:relative hidden flex-col fixed top-32 left-0 rounded-tr-xl rounded-br-xl shadow-xl overflow-hidden"
+          class="xl:flex xl:flex-row xl:items-center xl:ml-auto xl:static xl:shadow-none hidden flex-col fixed top-32 left-0 rounded-tr-xl rounded-br-xl shadow-xl overflow-hidden"
         >
           <a
             href="#"
@@ -58,13 +58,13 @@
     <main>
       <section class="bg-blue-900 flex flex-col items-center">
         <h1 class="text-white text-5xl mt-7">Expo 2021</h1>
-        <p class="text-white w-1/2 text-center my-5">
+        <p class="text-white w-1/2 text-center my-5 ">
           Encuentra información de tu campus, facultad o carrera de interés, a
           través de nuestro buscador o ingresa a la sección directamente.
         </p>
         <input
           type="text"
-          class="mb-7 w-1/2 px-7 py-3 border-none outline-none rounded-3xl"
+          class="mb-7 md:w-1/2 px-7 py-3 border-none outline-none rounded-3xl w-3/4"
           placeholder="Lorem ipsum dolor sit amet..."
         />
       </section>
@@ -73,7 +73,7 @@
           <h2 class="text-blue-900 text-2xl font-semibold">
             Tus carreras de interés
           </h2>
-          <div class="grid grid-cols-3 gap-20 mt-5">
+          <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-20 mt-5">
             <article
               class="border-purple-800 border-l-8 shadow-xl rounded-md p-7 hover:transform hover:scale-105 transition ease-in duration-200 cursor-pointer"
             >
@@ -109,7 +109,7 @@
         </div>
         <div class="px-28 py-10">
           <h2 class="text-blue-900 text-2xl font-semibold">Facultades</h2>
-          <div class="grid grid-cols-3 gap-20 mt-5">
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-20 mt-5">
             <article
               class="rounded-md border-l-8 p-5 cursor-pointer shadow-xl border-purple-500 hover:transform hover:scale-105 transition ease-in duration-200"
             >
@@ -166,23 +166,23 @@
           </div>
         </div>
       </section>
-      <section class="grid grid-cols-2 px-28 py-7 bg-blue-900">
+      <section class="grid md:grid-cols-2 grid-cols-1 gap-5 px-28 py-7 bg-blue-900 place-items-center">
         <div>
-          <h2 class="text-blue-100 font-semibold text-3xl">
+          <h2 class="text-blue-100 font-semibold text-3xl lg:text-left text-center">
             ¿Quieres saber tus siguientes pasos?
           </h2>
-          <p class="text-yellow-400 font-semibold">
+          <p class="text-yellow-400 font-semibold text-center lg:text-left">
             Entérate aquí de todo lo que necesitas.
           </p>
         </div>
         <button
-          class="bg-yellow-400 text-white font-semibold outline-none border-none px-10 py-4 ml-auto rounded-full w-max hover:transform hover:scale-95 transition ease-in duration-200"
+          class="bg-yellow-400 text-white font-semibold outline-none border-none h-16 px-10 py-4 md:ml-auto m-0 rounded-full w-max hover:transform hover:scale-95 transition ease-in duration-200"
         >
           Siguientes pasos
         </button>
       </section>
       <section>
-        <div class="grid grid-cols-2 px-28 py-10 gap-10">
+        <div class="grid md:grid-cols-2  grid-cols-1  px-28 py-10 gap-10">
           <div>
             <h2 class="text-blue-900 text-2xl font-semibold mb-5">
               Próximos Eventos
@@ -326,7 +326,7 @@
           <h2 class="text-blue-900 text-2xl font-semibold">
             También te podría interesar
           </h2>
-          <div class="grid grid-cols-3 gap-20 mt-5">
+          <div class="grid md:grid-cols-3  grid-cols-1 gap-20 mt-5">
             <article
               class="rounded-md border-l-8 p-5 cursor-pointer shadow-xl border-purple-500 hover:transform hover:scale-105 transition ease-in duration-200"
             >
@@ -349,7 +349,7 @@
       </section>
     </main>
     <footer class="bg-blue-900 px-28 pt-10 pb-3">
-      <div class="grid grid-cols-4 gap-10">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  md:text-left text-center gap-10">
         <div>
           <p>
             <span class="text-white text-4xl">expo</span
@@ -405,7 +405,7 @@
           </ul>
         </div>
       </div>
-      <div class="py-2 flex justify-between mt-3">
+      <div class="py-2 flex flex-wrap md:justify-between justify-center mt-3">
         <p class="text-xs text-blue-100">
           © 2020 Universdad Rafael Landívar. Todos los derechos reservados
         </p>
