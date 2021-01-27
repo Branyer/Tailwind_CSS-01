@@ -14,29 +14,36 @@
         </span>
       </div>
       <div class="w-full bg-white h-24 flex items-center justify-between px-20">
-        <p>
+        <button
+          id="hamburger"
+          class="bg-hamburguer bg-center bg-cover bg-no-repeat w-8 h-8 xl:hidden"
+        ></button>
+        <p class="md:block hidden ">
           <span class="text-blue-900 text-4xl">expo</span
           ><b class="text-yellow-300 text-4xl">Landívar</b>
         </p>
-        <nav class="flex items-center ml-auto">
+        <nav
+          id="nav-bar"
+          class="xl:flex xl:flex-row xl:items-center xl:ml-auto xl:relative hidden flex-col fixed top-32 left-0 rounded-tr-xl rounded-br-xl shadow-xl overflow-hidden"
+        >
           <a
             href="#"
-            class="text-blue-900 align-text-bottom font-bold mx-3 hover:text-blue-600 transition ease-in duration-200"
+            class="xl:text-blue-900 xl:bg-white align-text-bottom font-bold xl:mx-3 xl:hover:text-blue-600 xl:transition xl:ease-in xl:duration-200 xl:p-0 px-12 py-6 bg-indigo-700 border-white border-b-2 text-white text-center"
             >Home</a
           >
           <a
             href="#"
-            class="text-blue-900 align-text-bottom font-bold mx-3 hover:text-blue-600 transition ease-in duration-200"
+            class="xl:text-blue-900 xl:bg-white align-text-bottom font-bold xl:mx-3 xl:hover:text-blue-600 xl:transition xl:ease-in xl:duration-200 xl:p-0 px-12 py-6 bg-indigo-700 border-white border-b-2 text-white text-center"
             >Cambiar Campus o Plan de Estudio</a
           >
           <a
             href="#"
-            class="text-blue-900 align-text-bottom font-bold mx-3 hover:text-blue-600 transition ease-in duration-200"
+            class="xl:text-blue-900 xl:bg-white align-text-bottom font-bold xl:mx-3 xl:hover:text-blue-600 xl:transition xl:ease-in xl:duration-200 xl:p-0 px-12 py-6 bg-indigo-700 border-white border-b-2 text-white text-center"
             >Agenda de Sesiones</a
           >
           <a
             href="#"
-            class="text-blue-900 align-text-bottom font-bold mx-3 hover:text-blue-600 transition ease-in duration-200"
+            class="xl:text-blue-900 xl:bg-white align-text-bottom font-bold xl:mx-3 xl:hover:text-blue-600 xl:transition xl:ease-in xl:duration-200 xl:p-0 px-12 py-6 bg-indigo-700 border-white border-b-2 text-white text-center"
             >FAQ general</a
           >
         </nav>
@@ -399,9 +406,28 @@
         </div>
       </div>
       <div class="py-2 flex justify-between mt-3">
-          <p class="text-xs text-blue-100">© 2020 Universdad Rafael Landívar. Todos los derechos reservados</p>
-          <p class="text-xs text-blue-100">Aviso de privacidad de información</p>
+        <p class="text-xs text-blue-100">
+          © 2020 Universdad Rafael Landívar. Todos los derechos reservados
+        </p>
+        <p class="text-xs text-blue-100">Aviso de privacidad de información</p>
       </div>
     </footer>
   </body>
 </html>
+
+<script type="text/javascript">
+  const handleClick = (e) => {
+    const menu = document.querySelector("#nav-bar");
+    if (menu.classList.contains("flex")) {
+      menu.classList.remove("flex");
+      menu.classList.add("hidden");
+    } else {
+      menu.classList.remove("hidden");
+      menu.classList.add("flex");
+    }
+  };
+
+  document
+    .querySelector("#hamburger")
+    .addEventListener("click", (e) => handleClick(e));
+</script>

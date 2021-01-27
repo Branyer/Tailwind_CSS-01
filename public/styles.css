@@ -568,9 +568,9 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 }
 
@@ -4226,6 +4226,10 @@ video {
 
 .bg-user {
   background-image: url('images/icon.user.png');
+}
+
+.bg-hamburguer {
+  background-image: url('images/hamburger-menu.svg');
 }
 
 .from-transparent {
@@ -13974,7 +13978,7 @@ video {
 }
 
 .max-w-screen-xl {
-  max-width: 1280px;
+  max-width: 1200px;
 }
 
 .max-w-screen-2xl {
@@ -31246,9 +31250,9 @@ video {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     .sm\:container {
-      max-width: 1280px;
+      max-width: 1200px;
     }
   }
 
@@ -34904,6 +34908,10 @@ video {
 
   .sm\:bg-user {
     background-image: url('images/icon.user.png');
+  }
+
+  .sm\:bg-hamburguer {
+    background-image: url('images/hamburger-menu.svg');
   }
 
   .sm\:from-transparent {
@@ -44652,7 +44660,7 @@ video {
   }
 
   .sm\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .sm\:max-w-screen-2xl {
@@ -61846,9 +61854,9 @@ video {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     .md\:container {
-      max-width: 1280px;
+      max-width: 1200px;
     }
   }
 
@@ -65504,6 +65512,10 @@ video {
 
   .md\:bg-user {
     background-image: url('images/icon.user.png');
+  }
+
+  .md\:bg-hamburguer {
+    background-image: url('images/hamburger-menu.svg');
   }
 
   .md\:from-transparent {
@@ -75252,7 +75264,7 @@ video {
   }
 
   .md\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .md\:max-w-screen-2xl {
@@ -92446,9 +92458,9 @@ video {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     .lg\:container {
-      max-width: 1280px;
+      max-width: 1200px;
     }
   }
 
@@ -96104,6 +96116,10 @@ video {
 
   .lg\:bg-user {
     background-image: url('images/icon.user.png');
+  }
+
+  .lg\:bg-hamburguer {
+    background-image: url('images/hamburger-menu.svg');
   }
 
   .lg\:from-transparent {
@@ -105852,7 +105868,7 @@ video {
   }
 
   .lg\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .lg\:max-w-screen-2xl {
@@ -123023,7 +123039,7 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .xl\:container {
     width: 100%;
   }
@@ -123046,9 +123062,9 @@ video {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     .xl\:container {
-      max-width: 1280px;
+      max-width: 1200px;
     }
   }
 
@@ -126704,6 +126720,10 @@ video {
 
   .xl\:bg-user {
     background-image: url('images/icon.user.png');
+  }
+
+  .xl\:bg-hamburguer {
+    background-image: url('images/hamburger-menu.svg');
   }
 
   .xl\:from-transparent {
@@ -136452,7 +136472,7 @@ video {
   }
 
   .xl\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .xl\:max-w-screen-2xl {
@@ -153646,9 +153666,9 @@ video {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     .\32xl\:container {
-      max-width: 1280px;
+      max-width: 1200px;
     }
   }
 
@@ -157304,6 +157324,10 @@ video {
 
   .\32xl\:bg-user {
     background-image: url('images/icon.user.png');
+  }
+
+  .\32xl\:bg-hamburguer {
+    background-image: url('images/hamburger-menu.svg');
   }
 
   .\32xl\:from-transparent {
@@ -167052,7 +167076,7 @@ video {
   }
 
   .\32xl\:max-w-screen-xl {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 
   .\32xl\:max-w-screen-2xl {
